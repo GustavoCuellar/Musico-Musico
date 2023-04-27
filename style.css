@@ -24,7 +24,7 @@ boby {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(/assets/picture/foto_header.jpeg);
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(./assets/picture/foto_header.jpeg);
 
     /*  */
 
@@ -406,7 +406,7 @@ p  {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(/assets/picture/p2.jpeg);
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(./assets/picture/p2.jpeg);
 
     background-size: contain;
     background-repeat: no-repeat;
