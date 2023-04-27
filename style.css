@@ -31,7 +31,7 @@ boby {
     
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .redes-sticky {
@@ -267,7 +267,7 @@ main {
     object-fit: cover;
     background-repeat: no-repeat;
     align-content: flex-end;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     
 }
 
