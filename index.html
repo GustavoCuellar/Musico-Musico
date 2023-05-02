@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Music a Musico</title>
+    <title>Musico a Musico</title>
 
     <link rel="icon" type="image/png" href="./assets/icons/logo.png" />
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="smartphone.css">
+
+    <link rel="stylesheet" href="tablet.css">
+
+    <link rel="stylesheet" href="desktop.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +26,8 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;500;700&display=swap" rel="stylesheet"> -->
+
+
 
 </head>
 
@@ -40,92 +48,132 @@
             </a>
         </div>
 
-        <header class="home-header ">
+        <header>
 
-            <div>
-                <nav class="menu">
-                    <div class="menu-img">
-                        <figure>
-                            <img src="./assets/icons/logo.png" alt="soy el logo">
-                        </figure>
-                    </div>
-                    <div class="items-container">
-                        <ul class="menu__items">
-                            <li> <a href="">Quienes Somos</a></li>
-                            <li> <a href="">Equipo</a></li>
-                            <!-- <li>Servicios</li> -->
-                            <li> <a href="">Contacto</a></li>
-                            <!-- <li> <a href="">Login In</a></li> -->
-                        </ul>
-                    </div>
-                </nav>
-                <div class="marca-container">
-                    <div class="marca-container__img">
-                        <figure class="marca-img">
-                            <img src="./assets/icons/m_w.png" alt="logo-marca">
-                        </figure>
-                    </div>
-                    <div class="marca-eslogan">
-                        <div class="item1">
-                            <figure>
-                                <img src="./assets/icons/mas3.png" alt="img3">
-                            </figure>
-                            <div>
-                                <p>Capacitar e Inspirar Adoradores</p>
-                            </div>
-                        </div>
-                        <div class="item2">
-                            <figure>
-                                <img src="./assets/icons/mas3.png" alt="img3">
-                            </figure>
-                            <div>
-                                <p>Excelencia, Pasion y Profesionalismo</p>
-                            </div>
-                        </div>
-                    </div>
+            <nav>
+
+                <div class="logo">
+                    <figure>
+                        <img src="./assets/icons/logo.png" alt="soy el logo">
+                    </figure>
                 </div>
+
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="nav-bar">
+                    <ul class="bar">
+                        <li>
+                            <a href="">Quienes Somos</a>
+                        </li>
+                        <li>
+                            <a href="">Equipo</a>
+                        </li>
+                        <li>
+                            <a href="">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+
+            <div class="marca-container">
+
+                <div class="marca-container__img">
+                    <figure class="marca-img">
+                        <img src="./assets/icons/m_w.png" alt="logo-marca">
+                    </figure>
+                </div>
+
+                <div class="marca-eslogan">
+
+                    <div class="item1">
+                        <figure>
+                            <img src="./assets/icons/mas3.png" alt="img3">
+                        </figure>
+                        <div>
+                            <p>Nuestra mision es capacitar e inspirar adoradores</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="item2">
+                        <figure>
+                            <img src="./assets/icons/mas3.png" alt="img3">
+                        </figure>
+                        <div>
+                            <p>Excelencia, Pasion y Profesionalismo</p>
+                        </div>
+                    </div> -->
+
+                </div>
+
             </div>
 
         </header>
+
+
+
     </div>
 
+    <!-- <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script> -->
+
     <main>
-        <section class="we-are" id="quienessomos">
+
+        <section class="we-are contenedor">
+
             <div class="title">
                 <div>
                     <h1 style="color: rgba(162, 102, 218, 0.9);">Musico a Musico</h1>
                 </div>
                 <div>
                     <h2>
-                        Un Reconocido <br> Instituto de Musica
+                        Nuestra mision es capacitar e inspirar adoradores
                     </h2>
                 </div>
             </div>
+
             <div class="we-are__contenido">
                 <div class="we-are__contenido-img">
                     <video autoplay loop muted>
                         <source src="./assets/picture/cuadrado m.mp4">
                     </video>
                 </div>
+
                 <div class="we-are__contenido-text">
-                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ipsa saepe maiores beatae,
-                        corrupti, numquam placeat itaque doloremque minima id voluptatibus nulla. Cum eos eveniet odio
-                        necessitatibus temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-                        adipisci expedita beatae delectus quae commodi facilis? Mollitia quam perspiciatis temporibus
-                        quaerat, nemo adipisci voluptatibus est animi, ipsum eaque et quas. <br>
-                        <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam deserunt eum delectus
-                        architecto non accusamus repudiandae vitae explicabo adipisci dolorum ratione id quod nobis, quo
-                        quos expedita, enim veniam molestiae! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Autem doloremque nisi earum cupiditate eveniet reprehenderit culpa, ut consequuntur sapiente
-                        corrupti? Eos, perferendis praesentium. Repudiandae temporibus voluptatum labore, adipisci
-                        placeat quod!
+                    <P>
+                        Musico a musico es una organizacion sin fines de lucro con base en Nashville, Tennessee, USA. La
+                        organizacion fue creada en el ano 2001. Su fundador es Wayne Hilton, quien hoy todavia sigue
+                        activo en su funcion de mentor y consejero, trabajando de manera activa juntos a los miembros de
+                        M&M. <br>
+                        <br> Musico a Musico esta formada por musicos y profesores de musica profesionales y con amplia
+                        experiencia en la industria musical. <br>
+                        <br> A traves de los anos hemos visitado muchos paises y lugares, siempre con la misma vision:
+                        Capacitar e inspirar adoradores. <br>
+                         <br> Hoy en dia, el equipo cuenta con profesores de varios paises, donde a traves de su sistema de
+                        congresos, siguen viajando a diferentes lugares, para de manera misionera, llevar adelante un
+                        mensaje inspirador a aquellos adoradores que anhelan capacitarce para dar la mejor ofrenda
+                        posible a nuestro Dios.
                     </P>
                 </div>
+
             </div>
+
         </section>
 
-        <section class="video-container">
-            <div class="video-container__img"></div>
+        <section class="fotona">
+            <figure>
+                <img src="./assets/picture/pp6.jpeg" alt="">
+            </figure>
         </section>
 
         <section>
@@ -153,7 +201,7 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section> 
 
 
 
@@ -191,18 +239,9 @@
             </div>
         </section>
 
-        <!-- <section class="spotify-container">
-            
-        </section>
-        <section class="sponsors-container">
+        <!-- <section class="contact-container">
 
-        </section>
-        <section class="testimony-container">
-
-        </section> -->
-        <section class="contact-container">
-
-            <form>
+            <form action="https://formspree.io/f/mdovyqwa" method="POST">
 
                 <div class="contact-title">
                     <h1>Contacto</h1>
@@ -214,8 +253,6 @@
                     <div class="group">
                         <label for="name">Nombre</label>
                         <input type="text" name="name" id="name" placeholder="Nombre">
-                        <!-- <label for="phone">Telefono</label>
-                        <input type="tel" name="phone" id="phone" placeholder="Telefono"> -->
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Email">
                         <label for="message">Mensaje</label>
@@ -223,14 +260,10 @@
                     </div>
 
                 </div>
-                <!-- <div class="form-text">
-                    <a href="#">Politica de Privacidad</a>
-                    <a href="#">Terminos y COndiciones</a>
-                </div> -->
                 <input class="btn" type="submit" value="Enviar">
             </form>
 
-        </section>
+        </section> -->
     </main>
     <footer>
 

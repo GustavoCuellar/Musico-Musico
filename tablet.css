@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    /* .redes-sticky {
+        left: 70%;
+    } */
+    
+    .marca-container {
+        padding: 80px 40px;
+    }
+
+    .marca-img img{
+        width: 65%;
+    }
+
+    .marca-eslogan {
+        padding: 20px 0;
+    }
+
+    .item1 p {
+        padding: 20px 10px;
+    } 
+    .item2 p {
+        padding: 20px 10px;
+    }
+
+    .hamburger.line {
+        background: white;
+    }
+
+    .title h1{
+        padding: 0 30px;
+        font-size: 2rem;
+    }
+
+    .title h2 {
+        font-size: 1rem;
+    }
+
+    .we-are__contenido {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .we-are__contenido-text {
+        width: 100%;
+    }
+
+    .we-are__contenido-text p {
+        padding-top: 50px;
+        font-size: 3rem;
+    }
+}
