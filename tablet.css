@@ -46,6 +46,19 @@
 
     .we-are__contenido-text p {
         padding-top: 50px;
-        font-size: 3rem;
+        font-size: 3.4rem;
+    }
+
+    .team {
+        flex-wrap: wrap;
+    }
+
+    .team-info {
+        width: 60%;
+        padding: 30px 0;
+    }
+
+    .team-info p {
+        text-align: center;
     }
 }

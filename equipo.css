@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+boby {
+    font-size: 62.5%;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    text-transform: lowercase;
+}
+
+
+nav {
+    background-color: black;
+}
+
+.content {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.tituloteam h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 700;
+    padding: 0 70px;
+    letter-spacing: 5px;
+    color: rgba(162, 102, 218, 0.9);
+}
+
+.equipo {
+    background-color: black;
+}
+
+.listaequipo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: aliceblue;
+    padding: 50px 0;
+}
+
+.miembro {
+    width: 30%;
+    height: fit-content;
+    margin-bottom: 10px;
+    
+}
+
+.miembro p {
+    color: aliceblue;
+}
+
+.miembro > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

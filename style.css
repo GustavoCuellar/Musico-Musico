@@ -50,8 +50,6 @@ header {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
-
-
 }
 
 nav {
@@ -122,8 +120,6 @@ nav {
     display: flex;
     flex-direction: column;
     padding: 100px 60px;
-    
-
 }
 
 .marca-img img {
@@ -139,20 +135,13 @@ nav {
     color: white;
 }
 
-.item1,
-.item2 {
+.item1 {
     width: auto;
     display: flex;
     align-items: center;
 }
 
-.item1 img,
-.item2 img {
-    width: 50px;
-}
-
-.item1 p,
-.item2 p {
+.item1 p {
     font-weight: 50px;
     color: white;
     font-size: 2em;
@@ -194,39 +183,47 @@ main {
     letter-spacing: 5px;
 }
 
-.title h2 {
-    font-weight: 300;
-    padding-top: 10px;
-    font-size: 2.2rem;
+.sub-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ 
+.sub-title h2 {
+    font-size: 2rem;
+    padding-top: 50px;
+    color: white;
+    text-align: justify;
 }
 
 .we-are__contenido {
-    width: 90%;
-    margin: auto;
+    width: 80%;
+    margin: 0 auto;
     padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .we-are p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 100;
+    margin-top: 30px;
     color: rgba(255, 255, 255, 0.8);
     text-align: justify;
     
 }
 
 .we-are__contenido-img {
-    width: 50%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
 .we-are__contenido-img video {
-    width: 50%;
+    width: 100%;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -234,7 +231,7 @@ main {
 }
 
 .we-are__contenido-text {
-    width: 50%;
+    width: 100%;
 }
 
 /* ----------------------------------- */
@@ -316,6 +313,7 @@ main {
 }
 
 .team-info {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,15 +329,21 @@ p {
 }
 
 .team img {
-    width: 100%;
+    width: 80%;
     height: 300px;
     display: flex;
     align-items: center;
+    background-size: cover;
     /* border: 3px solid blueviolet; */
 }
 
 .team h3 {
     padding: 15px;
+}
+
+.team-info p {
+    text-align: center;
+    font-weight: 100;
 }
 
 .nowmore-team {
@@ -349,7 +353,7 @@ p {
     /*  padding: 60px 0; */
 }
 
-.nowmore-team p {
+.nowmore-team a {
     width: 35%;
     padding: 15px;
     border: 1px solid rgba(137, 43, 226, 0.501);
@@ -360,6 +364,9 @@ p {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
 
 .contact-container {
@@ -377,6 +384,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 100px 0;
+    margin: 0 auto;
     font-family: "neue-haas-grotesk-display", sans-serif;
 
     background: #b92b27;
