@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+boby {
+    font-size: 62.5%;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    text-transform: lowercase;
+}
+
+.content {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.behind-header {
+    width: 100%;
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(./assets/picture/foto_header.jpeg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.redes-sticky {
+    position: fixed;
+    flex-direction: column;
+    left: 95%;
+    padding-top: 20%;
+}
+
+.redes-sticky img {
+    display: flex;
+    padding-bottom: 30px;
+    margin: 0 10px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width: 100%;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    max-width: 100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.bar {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.bar li {
+    display: block;
+    justify-content: space-between;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    letter-spacing: 2px;
+}
+
+.bar a {
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.bar li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+}
+
+.marca-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 60px;
+}
+
+.marca-img img {
+    width: 50%;
+    max-width: 100%;
+}
+
+.marca-eslogan {
+    width: 100%;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.item1 {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.item1 p {
+    font-weight: 50px;
+    color: white;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+/*----------------------------------- Main */
+
+
+
+/*-----------------------------------section we-are */
+
+main {
+    background-color: black;
+}
+
+.we-are {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.title h1 {
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.sub-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title h2 {
+    font-size: 2rem;
+    padding-top: 50px;
+    color: white;
+    text-align: justify;
+}
+
+.we-are__contenido {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.we-are p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+
+}
+
+.we-are__contenido-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.we-are__contenido-img video {
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(137, 43, 226, 0.5);
+}
+
+.we-are__contenido-text {
+    width: 100%;
+}
+
+/* ----------------------------------- */
+
+/* video-container */
+
+.fotona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    width: 100%;
+}
+
+.fotona img {
+    margin: auto 0;
+    max-width: 100%;
+
+}
+
+/* ----------------------------------- */
+
+/* redes-container */
+
+.redes-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    width: 65px;
+    padding-right: 20px;
+}
+
+.redes p {
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* ----------------------------------- */
+
+/* team-container */
+
+.team-container {
+    width: 100%;
+    color: white;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+
+}
+
+.team-container h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 700;
+    padding: 0 70px;
+    letter-spacing: 5px;
+    color: rgba(162, 102, 218, 0.9)
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    color: aliceblue;
+}
+
+.team-info {
+    width: 25%;
+    height: fit-content;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.team-info > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.team-info h3 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.team-info p {
+    color: aliceblue;
+    text-align: justify;
+}
+
+.nowmore-team {
+    display: flex;
+    justify-content: center;
+}
+
+.nowmore-team a {
+    width: 35%;
+    padding: 15px;
+    border: 1px solid rgba(137, 43, 226, 0.501);
+    /* border: 1px solid rgb(255, 191, 0); */
+    border-radius: 7px;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.contact-container {
+    width: 100%;
+    color: white;
+}
+
+/* ----------------------------------- */
+
+/* contact-container */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    min-height: 100vh;
+
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(./assets/picture/p2.jpeg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+form {
+    position: absolute;
+    border-radius: 30px;
+    padding: 40px 45px;
+    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); */
+    text-align: center;
+    width: 40%;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+form h1 {
+    width: 100%;
+    color: rgba(162, 102, 218, 0.9);
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+form p {
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.group {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group label,
+input {
+    width: 60%;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: rgba(240, 248, 255, 0.7);
+}
+
+input,
+textarea {
+    padding: 17px 25px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: #ffffff;
+    outline: none;
+}
+
+input::placeholder,
+::placeholder {
+    color: #b5cab6;
+}
+
+.form-bottom {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    /* box-shadow: 0 0 20px rgba(25, 254, 0, 0.4); */
+    cursor: pointer;
+}
+
+/* -----------------------------------------------------
+----------------------------------------------------- */

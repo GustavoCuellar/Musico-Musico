@@ -1,0 +1,46 @@
+@media screen and (max-width: 425px) {
+
+    .marca-container {
+        padding: 60px 20px;
+    }
+
+    .marca-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item1 p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+     .team-info {
+        width: 90%;
+        padding: 40px 20px;
+    }
+
+    .team-info>img {
+        width: 100%;
+    }
+
+    .team-container h1 {
+        font-size: 60px;
+    }
+
+    .nowmore-team a {
+        font-size: 10px;
+        width: 90%;
+    }
+
+    
+    form {
+        width: 80%;
+        padding: 0;
+    }
+    form h1 {
+        color: red;
+    }
+}
+

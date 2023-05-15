@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    
+    .marca-container {
+        padding: 80px 40px;
+    }
+
+    .marca-img img{
+        width: 65%;
+    }
+
+    .hamburger.line {
+        background: white;
+    }
+
+    .title h1{
+        padding: 0 30px;
+        font-size: 2rem;
+    }
+
+    .title h2 {
+        font-size: 1rem;
+    }
+
+    .we-are__contenido {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .we-are__contenido-text {
+        width: 100%;
+    }
+
+    .we-are__contenido-text p {
+        padding-top: 50px;
+        font-size: 3.4rem;
+    }
+
+    .team-info {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+    .nowmore-team a {
+        width: 50%;
+    }
+    
+
+
+    form {
+        width: 70%;
+    }
+    form h1 {
+        width: 90%;
+        font-size: 70px;
+    }
+    form p {
+        font-size: 17px;
+    }
+}

@@ -1,11 +1,80 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
+
+    .redes-sticky img{
+        left: 90%;
+        padding-top: 30%;
+        margin: 0;
+    }
 
     .marca-container {
-        padding: 20px;
+        padding: 60px 20px;
     }
 
-    .marca-img  {
+    .marca-img {
+        width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .item1 p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .team .team-info {
+        width: 90%;
+        padding: 40px 20px;
+    }
+
+    .team-info>img {
+        width: 100%;
+    }
+
+    .team-container h1 {
+        font-size: 60px;
+    }
+
+    .nowmore-team a {
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .we-are .title h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .contact-container form {
+        width: 80%;
+    }
+    .contact-container form h1 {
+        font-size: 60px;
+    }
+    .contact-container form p {
+        font-size: 17px;
+    }
+    
+    .sponsors h1 {
+        font-size: 60px;
+    }
+    .sponsor-contain .sponsor-info{
+        width: 70%;
+        margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .contact-container form h1 {
+        font-size: 45px;
+    }
+    .contact-container form p {
+        font-size: 14px;
+    }
+    .nowmore-team a {
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
+

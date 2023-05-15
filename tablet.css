@@ -1,32 +1,18 @@
 @media screen and (max-width: 768px) {
-    /* .redes-sticky {
-        left: 70%;
-    } */
-    
+
     .marca-container {
         padding: 80px 40px;
     }
 
-    .marca-img img{
+    .marca-img img {
         width: 65%;
-    }
-
-    .marca-eslogan {
-        padding: 20px 0;
-    }
-
-    .item1 p {
-        padding: 20px 10px;
-    } 
-    .item2 p {
-        padding: 20px 10px;
     }
 
     .hamburger.line {
         background: white;
     }
 
-    .title h1{
+    .title h1 {
         padding: 0 30px;
         font-size: 2rem;
     }
@@ -49,16 +35,29 @@
         font-size: 3.4rem;
     }
 
-    .team {
-        flex-wrap: wrap;
-    }
-
     .team-info {
-        width: 60%;
-        padding: 30px 0;
+        width: 40%;
+        padding-bottom: 30px;
     }
 
-    .team-info p {
-        text-align: center;
+    .nowmore-team a {
+        width: 50%;
+    }
+
+    .contact-container h1 {
+        font-size: 70px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .contact-container p {
+        font-size: 18px;
+    }
+
+    .sponsor-contain .sponsor-info {
+        width: 35%;
+        margin-bottom: 30px;
     }
 }

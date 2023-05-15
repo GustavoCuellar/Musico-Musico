@@ -1,0 +1,54 @@
+
+
+@media screen and (max-width: 1100px) {
+    nav {
+        padding: 20px 20px;
+    }
+
+    .title h1 {
+        font-size: 4.8rem;
+    }
+
+    .we-are__contenido-text p{
+        font-size: 0.9rem;
+    }
+
+    .we-are__contenido-img {
+        width: 50%;
+    }
+
+    .we-are__contenido-img video {
+        width: 70%;
+    }
+
+    form {
+        width: 60%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .redes-sticky {
+        left: 93%;
+        padding-top: 30%;
+    }
+
+    nav {
+        padding: 30px 30px;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 50px;
+        height: 4px;
+        background: white;
+        margin: 15px 0;
+        border-radius: 7px;
+    }
+    .nav-bar {
+        display: none;
+    }
+}
